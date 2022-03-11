@@ -23,6 +23,9 @@ body {
     padding: 5%;
 }
 
-.container_header{
-    color: #2c3034;
+.result{
+    font-size: 1.1rem;
+}
+.total-basket{
+    color: #263238;
 }

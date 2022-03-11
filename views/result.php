@@ -2,20 +2,17 @@
     <!-- Main Content-->
     <div class="container-main container">
         <div class="row">
-            <h5 class="container_header">
-                Number Of Bags Of Topsoil =  <?php echo $bagsCount ?>
-            </h5>
+            <p class="result">
+                Number of bags of topsoil =  <?php echo $bagsCount ?>
+            </p>
         </div>
+
+        <p class="result">Bags price = ₤<i id="cost"><?php echo $cost ?></i> (inc VAT)</p>
         <hr>
 
-        <h5>Prices Of Bags = ₤<i id="cost"><?php echo $cost ?></i></h5>
-        <hr>
+        <h5 class="total-basket">Total amount payable = ₤<i id="total"><?php echo $totalAmount ?> </i></h5>
 
-        <h5>
-            Total Amount Payable = ₤<i id="total"><?php echo $totalAmount ?> </i>
-        </h5>
-
-        <a href="#" id="add-to-basket" class="btn btn-success mt-2">
+        <a href="#" id="add-to-basket" class="btn btn-success mt-4">
             <i class="fa fa-shopping-basket"></i>  Add To Basket
         </a>
 

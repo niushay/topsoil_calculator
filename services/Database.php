@@ -12,7 +12,6 @@ class Database
     const DB_PASSWORD = '';
     private $connect;
 
-
     public function __construct()
     {
         try {
